@@ -1,0 +1,31 @@
+body { /* Visual */
+    background:whitesmoke;   
+    background-image: url('/images/background.jpg') repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+button {
+    display: inline-block;
+    height: 134px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 104px;
+}
+ 
+#start  {
+    display: block;
+    height: 100px;  
+    width: 200px;
+}
+#done  {
+    display: block;
+    height: 100px;  
+    width: 200px;
+    align-content: center;
+}
+#display {
+    font-size: 50px;
+    font-style: italic;
+    align-content: center
+}
